@@ -8,5 +8,5 @@ def emotion_detector(text_to_analyze):
     response = requests.post(url, json = input_json, headers=header)
     formatted_response = json.loads(response.text)
     return response.text
-        
+      
 
